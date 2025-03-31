@@ -1,9 +1,9 @@
-const Button = ({ children, type }) => {
+const Button = ({ children, type, className }) => {
   return (
     <>
       <button
         type={type}
-        className='w-full font-bold bg-green-900 text-white rounded-md border border-green-950 p-2 hover:bg-green-800'
+        className={`${className} font-bold bg-green-900 text-white  border border-green-950 p-2 hover:bg-green-800`}
       >
         {children}
       </button>
