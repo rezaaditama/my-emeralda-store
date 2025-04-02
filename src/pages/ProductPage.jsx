@@ -1,9 +1,11 @@
+import Carousel from '../components/Carousel';
 import Navbar from '../components/Navbar';
 
 const ProductPage = () => {
   return (
-    <div className=''>
+    <div className='space-y-2'>
       <Navbar />
+      <Carousel />
     </div>
   );
 };
